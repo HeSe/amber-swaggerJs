@@ -1,4 +1,4 @@
-define("amber-amberswaggerjs/AmberSwaggerJs", ["amber/boot"
+define("amber-swaggerJs/AmberSwaggerJs", ["amber/boot"
 //>>excludeStart("imports", pragmas.excludeImports);
 , "amber/jquery/Wrappers-JQuery", "amber/web/Web", "silk/Silk"
 //>>excludeEnd("imports");
@@ -6,12 +6,12 @@ define("amber-amberswaggerjs/AmberSwaggerJs", ["amber/boot"
 //>>excludeStart("imports", pragmas.excludeImports);
 
 //>>excludeEnd("imports");
-){
+){"use strict";
 var $core=$boot.api,nil=$boot.nil,$recv=$boot.asReceiver,$globals=$boot.globals;
 $core.addPackage('AmberSwaggerJs');
 $core.packages["AmberSwaggerJs"].innerEval = function (expr) { return eval(expr); };
 $core.packages["AmberSwaggerJs"].imports = ["amber/jquery/Wrappers-JQuery", "amber/web/Web", "silk/Silk"];
-$core.packages["AmberSwaggerJs"].transport = {"type":"amd","amdNamespace":"amber-amberswaggerjs"};
+$core.packages["AmberSwaggerJs"].transport = {"type":"amd","amdNamespace":"amber-swaggerJs"};
 
 $core.addClass('AmberSwaggerJs', $globals.Object, [], 'AmberSwaggerJs');
 $core.addMethod(
@@ -19,6 +19,8 @@ $core.method({
 selector: "augmentPage",
 protocol: 'starting',
 fn: function (){
+"use strict";
+
 var self=this;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {
@@ -77,6 +79,8 @@ $core.method({
 selector: "doAmberWith",
 protocol: 'action',
 fn: function (){
+"use strict";
+
 var self=this;
 var tag;
 function $HTMLCanvas(){return $globals.HTMLCanvas||(typeof HTMLCanvas=="undefined"?nil:HTMLCanvas)}
@@ -115,6 +119,8 @@ $core.method({
 selector: "doJQueryAppend",
 protocol: 'action',
 fn: function (){
+"use strict";
+
 var self=this;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {
@@ -139,6 +145,8 @@ $core.method({
 selector: "doSilkTAG",
 protocol: 'action',
 fn: function (){
+"use strict";
+
 var self=this;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {
@@ -164,6 +172,8 @@ $core.method({
 selector: "start",
 protocol: 'starting',
 fn: function (){
+"use strict";
+
 var self=this;
 //>>excludeStart("ctx", pragmas.excludeDebugContexts);
 return $core.withContext(function($ctx1) {

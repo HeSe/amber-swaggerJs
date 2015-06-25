@@ -1,8 +1,8 @@
-define("amber-amberswaggerjs/Swagger-PetStore-Client", ["amber/boot", "amber_core/Kernel-Objects", "amber-amberswaggerjs/Swagger-Support-Spec"], function($boot){"use strict";
+define("amber-swaggerJs/Swagger-PetStore-Client", ["amber/boot", "amber_core/Kernel-Objects"], function($boot){"use strict";
 var $core=$boot.api,nil=$boot.nil,$recv=$boot.asReceiver,$globals=$boot.globals;
 $core.addPackage('Swagger-PetStore-Client');
 $core.packages["Swagger-PetStore-Client"].innerEval = function (expr) { return eval(expr); };
-$core.packages["Swagger-PetStore-Client"].transport = {"type":"amd","amdNamespace":"amber-amberswaggerjs"};
+$core.packages["Swagger-PetStore-Client"].transport = {"type":"amd","amdNamespace":"amber-swaggerJs"};
 
 $core.addClass('Category', $globals.Object, ['name', 'id'], 'Swagger-PetStore-Client');
 
@@ -76,7 +76,7 @@ $globals.PetStoreApiRequestContext);
 
 
 
-$core.addClass('SwaggerPetStoreApi', $globals.SwaggerApi, [], 'Swagger-PetStore-Client');
+$core.addClass('SwaggerPetStoreApi', null, [], 'Swagger-PetStore-Client');
 
 $core.addMethod(
 $core.method({

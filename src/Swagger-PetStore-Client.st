@@ -32,7 +32,7 @@ initialize
 	status := ''
 ! !
 
-SwaggerApi subclass: #SwaggerPetStoreApi
+nil subclass: #SwaggerPetStoreApi
 	instanceVariableNames: ''
 	package: 'Swagger-PetStore-Client'!
 

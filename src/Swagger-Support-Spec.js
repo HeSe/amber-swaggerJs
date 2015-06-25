@@ -1,8 +1,8 @@
-define("amber-amberswaggerjs/Swagger-Support-Spec", ["amber/boot", "amber_core/Kernel-Objects", "amber_core/Kernel-Collections", "amber_core/Kernel-Infrastructure"], function($boot){"use strict";
+define("amber-swaggerJs/Swagger-Support-Spec", ["amber/boot", "amber_core/Kernel-Objects", "amber_core/Kernel-Collections", "amber_core/Kernel-Infrastructure"], function($boot){"use strict";
 var $core=$boot.api,nil=$boot.nil,$recv=$boot.asReceiver,$globals=$boot.globals;
 $core.addPackage('Swagger-Support-Spec');
 $core.packages["Swagger-Support-Spec"].innerEval = function (expr) { return eval(expr); };
-$core.packages["Swagger-Support-Spec"].transport = {"type":"amd","amdNamespace":"amber-amberswaggerjs"};
+$core.packages["Swagger-Support-Spec"].transport = {"type":"amd","amdNamespace":"amber-swaggerJs"};
 
 $core.addClass('SwaggerApi', $globals.Object, [], 'Swagger-Support-Spec');
 
