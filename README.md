@@ -1,40 +1,54 @@
-# amber-swaggerJs
+Amber-SwaggerJs
+=====
 
-An API layer for swaggerJs in Amber
+By Sebastian Heidbrink
+
+Amber is an implementation of the Smalltalk language that runs on top of the JavaScript runtime. It is designed to make client-side development faster and easier.
+This Project enhances Amber by an interface layer to ProcessingJs. This shall make it easier to enhance Amber applications with data visualization capabilities.
+
+About
+-------
+* License:                        MIT
+* Amber Web Site:                 http://amber-lang.net
+* Amber Github Repo:              http://github.com/NicolasPetton/amber
+* Swagger Web Site:               http://http://swagger.io/
+* SwaggerJs Github Repo:          https://github.com/swagger-api/swagger-js
+
+
+## Prerequisites
+
+1. A web browser with reasonably good support for HTML5 canvas.
+2. [nodejs](http://www.nodejs.org/). This will give you the node package manager `npm` as well.
+3. A global install of the [`amber`](http://amber-lang.net/) [npm](http://npmjs.org/) package
+4. A global install of the [`bower`](http://bower.io/) client side package manager in order to install the dependencies
+
+The `amber` and `bower` packages can be installed with the following command (In some cases you have to call `npm` with `sudo npm`):
+
+    npm install --global amber-cli bower grunt-cli
+
+or the same thing, but less typing:
+
+    npm i -g amber-cli bower grunt-cli
 
 ## Getting Started
 
-Install Amber and create an Amber project,
-as shown in [Amber Instructions](https://github.com/amber-smalltalk/amber#prerequisites).
+Clone the repo, and start the amber server:
 
-## Use AmberSwaggerJs as a library in a client project
+    git clone https://github.com/HeSe/amber-swaggerJs.git
+    cd amber-swaggerJs
+    npm install
+    bower install
+    grunt devel
+    amber serve
 
-If not already present, create a client project
-in an empty directory with `amber init`.
+Point your browser to:
 
-In a client project, run
+    http://localhost:4000/index.html
 
-```sh
-bower install AmberSwaggerJs --save
-grunt devel
-amber serve
-```
+Enjoy!
 
-Go to `http://localhost:4000/` in your browser and
-in all packages that use AmberSwaggerJs,
-add `'amber-amberswaggerjs/AmberSwaggerJs'` to the package imports,
-save the change and commit the package. Reload.
+The default port is 4000. Use --port to specify a custom port:
 
-## Contributing
+    amber serve --port 9000
 
-To bring project alive (for example after `git clone`):
 
-```sh
-npm install
-bower install
-grunt devel
-```
-
-Developing the project (after brought alive):
- 
-Start server with `amber serve` and go to `http://localhost:4000/` in your browser and follow the instructions
