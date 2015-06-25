@@ -14,6 +14,7 @@ require.config({
     "bootstrap": "bower_components/bootstrap/dist",
     "mousetrap": "bower_components/mousetrap/mousetrap",
     "jquery.blockUI": "bower_components/blockui/jquery.blockUI",
+    "swagger-tools": "bower_components/swagger-tools/swagger-tools",
     "silk": "bower_components/silk/src",
     "helios": "bower_components/helios/src",
     "helios/resources": "bower_components/helios/resources",
@@ -26,7 +27,7 @@ require.config({
     "amber/domite": "bower_components/amber-contrib-domite/src",
     "amber": "bower_components/amber/support",
     "amber_core": "bower_components/amber/src",
-    "amber-swaggerJs": "src"
+    "amber-swaggerjs": "src"
   },
   "shim": {
     "typeahead": {
