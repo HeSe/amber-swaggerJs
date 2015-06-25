@@ -33,10 +33,12 @@ module.exports = function (grunt) {
             },
             all: {
                 src: [
+                     'src/Swagger-Support-Spec.st', // list all sources in dependency order
+                     'src/Swagger-PetStore-Client.st', // list all sources in dependency order
                     'src/AmberSwaggerJs.st', // list all sources in dependency order
                     'src/AmberSwaggerJs-Tests.st' // list all tests in dependency order
                 ],
-                amd_namespace: 'amber-amberswaggerjs',
+                amd_namespace: 'amber-swaggerJs',
                 libraries: ['SUnit', 'Web']
             }
         },

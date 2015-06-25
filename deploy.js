@@ -1,9 +1,9 @@
 define([
     'amber/deploy',
     // --- packages to be deployed begin here ---
-    'amber-amberswaggerjs/Swagger-Support-Spec',
-    'amber-amberswaggerjs/Swagger-PetStore-Client',
-    'amber-amberswaggerjs/AmberSwaggerJs'
+    'amber-swaggerJs/Swagger-Support-Spec',
+    'amber-swaggerJs/Swagger-PetStore-Client',
+    'amber-swaggerJs/AmberSwaggerJs'
     // --- packages to be deployed end here ---
 ], function (amber) {
     return amber;

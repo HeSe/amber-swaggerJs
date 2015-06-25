@@ -36,8 +36,7 @@ Clone the repo, and start the amber server:
 
     git clone https://github.com/HeSe/amber-swaggerJs.git
     cd amber-swaggerJs
-    npm install
-    bower install
+    bower install AmberSwaggerJs --save
     grunt devel
     amber serve
 

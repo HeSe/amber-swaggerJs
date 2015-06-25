@@ -26,7 +26,7 @@ require.config({
     "amber/domite": "bower_components/amber-contrib-domite/src",
     "amber": "bower_components/amber/support",
     "amber_core": "bower_components/amber/src",
-    "amber-amberswaggerjs": "src"
+    "amber-swaggerJs": "src"
   },
   "shim": {
     "typeahead": {
