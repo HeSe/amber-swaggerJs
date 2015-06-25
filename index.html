@@ -22,7 +22,7 @@
       require(['app'], function (amber) {
           amber.initialize({
             //used for all new packages in IDE
-            'transport.defaultAmdNamespace': "amber-amberswaggerJs"
+            'transport.defaultAmdNamespace': "amber-swaggerJs"
           });
           require(["amber-ide-starter-dialog"], function (dlg) { dlg.start(); });
           amber.globals.AmberSwaggerJs._start();
